@@ -11,6 +11,7 @@ Vous devez modifier certains paramètres dans le code :
 
 🔹 Ajustez les coordonnées X et Y des boutons Prêt et Passer le tour, selon la résolution de votre écran ou votre configuration.
 
+![Uploading image.png…]()
 
 
 **Uilisation**
