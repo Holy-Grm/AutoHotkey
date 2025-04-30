@@ -11,7 +11,7 @@ Vous devez modifier certains paramètres dans le code :
 
 🔹 Ajustez les coordonnées X et Y des boutons Prêt et Passer le tour, selon la résolution de votre écran ou votre configuration.
 
-[![Uploading image.png…]()](https://github.com/Holy-Grm/AutoHotkey/blob/dd69a6da9f5ec17598fc0bd9538030afdb3f4da2/GUI.png)
+[![Menu GUI]()](https://github.com/Holy-Grm/AutoHotkey/blob/dd69a6da9f5ec17598fc0bd9538030afdb3f4da2/GUI.png)
 
 
 **Uilisation**
@@ -38,3 +38,6 @@ Si vous relâchez ALT sans interagir avec le menu :
 
 
 Le script change automatiquement de personnage, en suivant l’ordre d’initiative défini.
+
+**Extra**
+Si vous appuyer sur MButton (molette de la souris) un clic sera envoyé sur tout les persos afin de se déplacer plus aisément. Un délais aléatoire à été ajouté afin d'être indétectable.
