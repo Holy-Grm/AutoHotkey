@@ -11,7 +11,7 @@ Vous devez modifier certains paramètres dans le code :
 
 🔹 Ajustez les coordonnées X et Y des boutons Prêt et Passer le tour, selon la résolution de votre écran ou votre configuration.
 
-![Menu GUI](https://github.com/Holy-Grm/AutoHotkey/menu.png?raw=true)
+![Menu GUI](https://github.com/Holy-Grm/AutoHotkey/menu.png)
 
 
 
