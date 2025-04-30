@@ -123,7 +123,7 @@ return
 
 
 ; --------- ALT RELÂCHÉ : Cache le menu et agit si aucun clic ---------
-LAlt Up::
+~LAlt Up::
     ; Si le GUI a été fermé par un clic (isButtonClicked = true), on ne fait rien
     if (GuiCloseAction || isButtonClicked) {
         isAltPressed := false
@@ -229,7 +229,7 @@ Pret:
 	ControlClick, x%x2% y%y2%, %Pseudo_6%, , Left, 1, NA
 	ControlClick, x%x2% y%y2%, %Pseudo_7%, , Left, 1, NA
 	ControlClick, x%x2% y%y2%, %Pseudo_8%, , Left, 1, NA
-	isButtonClicked := true
+	GoSub, P1
 return
 
 
