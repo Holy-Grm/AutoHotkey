@@ -4,12 +4,14 @@ AutoHotkey est un langage de script pour automatiser des actions sous Windows.
 Ce script a été conçu pour faciliter le contrôle de 8 comptes Dofus Rétro, en remplaçant le traditionnel Alt + Esc par une interface plus efficace.
 
 **Avant de commencer**
+
 Vous devez modifier certains paramètres dans le code :
 🔹 Remplacez les noms dans la liste des pseudos (Pseudo_1, Pseudo_2, etc.) par les noms de vos personnages, dans l’ordre d’initiative.
 🔹 Ajustez les coordonnées X et Y des boutons Prêt et Passer le tour, selon la résolution de votre écran ou votre configuration.
 
 
 **Uilisation**
+
 🔸 Activation du menu
 Appuyez sur ALT pour afficher le menu interactif.
 
