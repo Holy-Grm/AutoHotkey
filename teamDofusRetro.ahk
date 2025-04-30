@@ -234,7 +234,7 @@ return
 
 
 ; --------- RACCOURCIS POUR ACTIVER CHAQUE PSEUDO DIRECTEMENT ---------
-/* Non utilisé pour moi
+/* Ceci était ma première version, je ne l'utilise plus depuis que j'ai implanté le GUI
 F2::GoSub, PrevPerso
 F3::GoSub, NextPerso
 F4::GoSub, P1
@@ -247,9 +247,9 @@ F10::GoSub, P7
 F11::GoSub, P8
 */
 
-; --------- ALT + CLIC GAUCHE → RELAY CLIC SUR CHAQUE FENÊTRE ---------
+; --------- CLIC MOLETTE → CLIC SUR CHAQUE FENÊTRE ---------
 MButton::
-MouseGetPos, x, y  ; Position globale de la souris
+MouseGetPos, x, y  ; Position de la souris
 Loop, 8 {
     thisPseudo := Pseudo_%A_Index%
     if WinExist(thisPseudo) {
@@ -257,8 +257,9 @@ Loop, 8 {
         relX := x - winX
         relY := y - winY
         ControlClick, x%relX% y%relY%, %thisPseudo%, , Left, 1, NA
+
         Random, delay, 250, 500
-        Sleep, delay
+        Sleep, delay ;Ajoute un délais pour simuler un clic humain
     }
 }
 return
