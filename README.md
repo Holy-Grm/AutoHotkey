@@ -27,10 +27,10 @@ Appuyez sur ALT pour afficher le menu interactif.
 Changer de personnage : sélectionne une fenêtre correspondant à un personnage.
 
 
-Passer le tour : envoie un clic aux coordonnées du bouton sans activer la fenêtre.
+Passer : envoie un clic aux coordonnées du bouton sans activer la fenêtre.
 
 
-Tous Prêt : clique sur le bouton "Prêt" sur les 8 fenêtres, si elles sont ouvertes.
+Prêt : clique sur le bouton "Prêt" sur les 8 fenêtres, si elles sont ouvertes.
 
 
 🔸 Relâcher ALT sans cliquer
