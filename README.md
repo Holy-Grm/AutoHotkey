@@ -42,3 +42,6 @@ Le script change automatiquement de personnage, en suivant l’ordre d’initiat
 
 **Extra**
 Si vous appuyer sur MButton (molette de la souris) un clic sera envoyé sur tout les persos afin de se déplacer plus aisément. Un délais aléatoire à été ajouté afin d'être indétectable.
+
+Démo youtube : https://www.youtube.com/watch?v=U7g3remDnzg
+
